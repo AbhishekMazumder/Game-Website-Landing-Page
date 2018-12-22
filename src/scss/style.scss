@@ -1,0 +1,83 @@
+$bg-color: #1a1b1d;
+$green: #00ffc4;
+
+$brand-primary: $green;
+$link-color: $green;
+
+body{
+  background: $bg-color;
+  color: #fff;
+}
+
+$font-family-sans-serif: "Raleway", Roboto, "Helvetica Neue", Arial, sans-serif;
+
+#hero{
+  background: url(../assets/bg.jpg);
+  background-size: cover;
+  background-position: 0 60%;
+}
+
+.navbar{
+  width: 100%;
+  background: none!important;
+
+  @media(max-width: 34em){
+    background: black!important;
+  }
+
+  .navbar-toggler{
+    cursor: pointer;
+    outline: 0;
+  }
+
+  .nav-link{
+    text-transform: uppercase;
+    font-weight: bold;
+     @media(max-width: 34em){
+        font-weight: normal;
+        color: #fff!important;
+      }
+  }
+
+  .nav-item{
+    padding: 0 2rem!important;
+
+    @media(max-width: 34em){
+      padding: 0;
+    }
+
+    
+  }
+}
+
+h1{
+  font-weight: bold;
+  font-size: 3.5em;
+}
+
+.hero-img{
+  width: 99%;
+}
+
+.features{
+  color: orange;
+}
+
+#newsletter{
+  background: url(../assets/screen1.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+
+  h2{
+    letter-spacing: 4px;
+    font-weight: bold;
+  }
+  h4{
+    color: gray;
+  }
+
+  .form-control{
+    background: #111111;
+    border: 3px solid#2f2f2f;
+  }
+}
